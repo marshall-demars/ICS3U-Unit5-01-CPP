@@ -20,7 +20,7 @@ void Fahrenheit() {
     try {
         Tc = std::stof(TcAsString);
         Tf = (1.8) * Tc + 32;
-        std::cout << Tc << "\n°C is equal to " << Tf << "°F." << std::endl;
+        std::cout << Tc << "°C is equal to " << Tf << "°F." << std::endl;
     } catch (std::invalid_argument) {
         std::cout << "\nInvalid Input" << std::endl;
     }
